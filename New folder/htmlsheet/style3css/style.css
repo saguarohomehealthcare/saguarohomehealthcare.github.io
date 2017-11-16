@@ -1,0 +1,53 @@
+.navbar a{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow: hidden;
+	color: black;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 10px;
+}
+table, th, td{
+	border: 1px solid black;
+	text-align: center;
+}
+body{
+	padding-left: 200px;
+	padding-right: 200px;
+	font-family: Arial, Helvetica, Sans-Serif;
+}
+#logo{
+	float: left;
+}
+.container{
+	padding: 100px;
+}
+#main{
+	text-align: center;
+	padding-bottom: 100px;
+}
+#chronicBronchitis{
+	float: right;
+}
+.container h1{
+	text-align: center;
+}
+.right{
+	float: right;
+}
+#_symptoms{
+	text-align: center;
+	padding-bottom: 100px;
+}
+.picture{
+	padding-left: 250px;
+}
+iframe{
+	padding-left: 220px;
+}
+table{
+	margin: auto;
+}
