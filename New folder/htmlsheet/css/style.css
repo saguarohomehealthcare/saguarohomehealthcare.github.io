@@ -1,0 +1,60 @@
+body,
+html{
+	min-height: 100%;
+}
+table, th, td {
+	border: 1px solid black;
+	text-align: center;
+
+}
+#figure2, #figure3, #figure4, #heartvideo,
+#pathophysiology, #conceptchf, #nursingmgt,
+#medicationmgt, #laboratorystudies, #surgeryasindicated {
+	text-align: center;
+	margin-left: 20px;
+}
+body {
+	font-family: Helvetica;
+	background-color: #f4f4f4;
+	font-size: 20px;
+	text-align: cneter;
+}
+.branding {
+	text-align: center;
+}
+.centered {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 500%;
+}
+h1 {
+	font-size: 50px
+}
+ul#menu {
+	list-style-type: none;
+	padding: 0px;
+	overflow: hidden;
+	background-color: black;
+}
+li#menu {
+	display: inline;
+}
+a {
+	color: white;
+	text-align: center;
+	padding: 4px 6px;
+	text-decoration: none;
+	font-size: 14px;
+
+}
+.container {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#logo{
+	width: 150px;
+	height: 150px;
+	float: left;
+}

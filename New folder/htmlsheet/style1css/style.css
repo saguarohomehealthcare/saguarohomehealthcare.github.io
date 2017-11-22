@@ -1,0 +1,57 @@
+body,
+html{
+	min-height: 100%;
+}
+body{
+	font-family: Arial, Helvetica, San-serif;
+	margin: 100px;
+	min-height: 100px;
+}
+h1{
+	font-size: 20px;
+	text-align: left;
+}
+#branding {
+	text-align: left;
+	margin: auto;
+	padding-bottom: 10px;
+	padding-top: 30px;
+	font-size: 20px;
+}
+.navbar a{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow: hidden;
+	color: black;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 10px;
+}
+a:hover{
+	opacity: .5;
+}
+table, th, td{
+	border: 1px solid black;
+	text-align: center;
+}
+.image2{
+	margin: auto 150px;
+}
+#logo{
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+#video{
+	text-align: center;
+	padding-top: 20px;
+}
+.picture_mi{
+	margin: auto 350px;
+}
+.container{
+	padding-top: 50px;
+}
