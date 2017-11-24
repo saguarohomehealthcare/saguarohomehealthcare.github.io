@@ -12,6 +12,7 @@ body{
 	padding-top: 10px;
     padding-right: 50px;
     font-family: 'Gloria Hallelujah', cursive;
+    position: fixed
 }
 .button1 {
     background-color: white; 
