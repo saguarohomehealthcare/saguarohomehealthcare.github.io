@@ -7,6 +7,8 @@ body{
 	font-family: Arial, Helvetica, San-serif;
 	margin: 100px;
 	min-height: 100px;
+	padding-left: 200px;
+	padding-right: 200px;
 }
 h1{
 	font-size: 40px;
@@ -27,6 +29,7 @@ li:hover{
 	font-size: 15px;
 	padding-left: 10px;
 	color: black;
+	font-weight: bold;
 }
 
 .container{
@@ -62,14 +65,30 @@ h2 a:hover{
 	border-bottom: 1px solid black;
 }
 .container img{
-	width: 500px;
-	height: 500px;
+	width: 350px;
+	height: 350px;
 }
 .read a{
 	color: black;
 }
 #logo{
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	float: left;
+}
+footer img{
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+footer{
+	line-height: 5px;
+
+}
+footer h2{
+	font-size: 15px;
+	padding-top: 40px;
+}
+footer h4{
+	font-size: 15px;
 }
