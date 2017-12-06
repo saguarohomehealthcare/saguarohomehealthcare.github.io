@@ -1,6 +1,6 @@
 body,
 html{
-	min-width: 100%;
+	min-height: 100%;
 }
 table, th, td{
 	border: 1px solid black;
@@ -78,10 +78,6 @@ footer{
 iframe{
 	margin-left: 100px;
 }
-
-
-
-
 
 
 
