@@ -5,6 +5,7 @@ html{
 table, th, td{
 	border: 1px solid black;
 	text-align: center;
+	line-height: 25px;
 }
 table.center{
 	width: 70%; 
@@ -22,19 +23,32 @@ table.center{
 	text-align: center;
 	font-size: 14px;
 	padding-top: 10px;
-	font-weight: bold;
+}
+#branding{
+	position: fixed;
+	padding-right: 200px;
+	margin-top: 0;
+	background-color: white;
+	top: 0;
+}
+#branding img{
+	padding-top: 50px;
 }
 body{
 	padding-left: 200px;
 	padding-right: 200px;
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 14px;
+	line-height: 30px;
 }
 #logo{
 	float: left;
 }
 h1, h3{
 	text-align: center;
+}
+h1{
+	padding-top: 160px;
 }
 .label{
 	font-size: 25px;
