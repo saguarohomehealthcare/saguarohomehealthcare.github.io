@@ -1,0 +1,50 @@
+/*.container {
+    border: 1px solid ;
+}
+
+.col-sm-3, .col-sm-6 {
+    border: 1px solid ;
+}
+*/
+/* This is the CSS for index.html */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    border-left: 350px solid lightgray;
+    border-right: 350px solid lightgray;
+    top: 0;
+    bottom: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.container p {
+    line-height: 25px;
+}
+/*
+This changes the outline of the page once viewed on mobile devices
+*/
+
+@media (max-width: 950px) {
+    body {
+        border-left: 0;
+        border-right: 0
+    }
+}

@@ -1,0 +1,61 @@
+body {
+    position: relative;
+    line-height: 30px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#myScrollspy {
+  border: 20px solid red;
+}
+
+.active {
+  border-left: 10px solid green;
+  font-size: 16px;
+}
+/*
+.col-lg-3, .col-lg-6 {
+  border: 1px solid black;
+  padding: 0;
+}
+*/
+
+@media (max-width: 900px) {
+  #toc, .navbar-text {
+    display: none;
+  }
+}
+
+#toc {
+  position: fixed;
+  left: 10px;
+  line-height: 10px;
+  font-size: 12px;
+}
+
+#toc a {
+  color: gray;
+  line-height: 10px;
+}
+
+h3 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#diabetesImage {
+  height: 3%;
+  width: auto;
+}
+
+#diabetesImage:hover {
+  cursor: pointer;
+}
+
+.d-block {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--CSS Links -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Diabetes Mellitus</title>
+  </head>
+  <body data-spy="scroll" data-target="#sidebar">
+    <div class="container" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+          <a class="navbar-brand" href="../index.html">Saguaro Home Healthcare</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle justify-content-end" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Topics<span class="sr-only"></span></a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="congested.html">Congestive Heart Failure</a>
+                  <a class="dropdown-item" href="coronary.html">Coronary Artery ByPass Graft</a>
+                  <a class="dropdown-item" href="chronic.html">Chronic Obstructive Pulmonary Disease</a>
+                  <a class="dropdown-item" href="diabetes.html">Diabetes Mellitus</a>
+                  <a class="dropdown-item" href="infection.html">Infection Control</a>
+                  <a class="dropdown-item" href="joint.html">Joint Replacement</a>
+                  <a class="dropdown-item" href="laboratory.html">Laboratory Modules</a>
+                  <a class="dropdown-item" href="medication.html">Medication Management</a>
+                  <a class="dropdown-item" href="myocardiac.html">Myocardiac Infarction</a>
+                  <a class="dropdown-item" href="pneumonia.html">Pnuemonia</a>
+                  <a class="dropdown-item" href="wound.html">Wound Management</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <span class="navbar-text">
+            Making simple joys happen
+          </span>
+        </nav>
+    </div>
+
+<!-- Table of Contents -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3" id="toc">
+          <nav class="nav flex-column" id="sidebar">
+            <h3>Contents</h3>
+              <a class="nav-link active" href="#introduction">Introduction</a>
+              <a class="nav-link" href="#types">Types of Diabetes</a>
+              <a class="nav-link" href="#signs">Signs and Symptoms of Diabetes Mellitus</a>
+               <a class="nav-link" href="#risk">Risk Factors for Diabetes Mellitus</a>
+              <a class="nav-link" href="#pathophysiology">Pathophysiology</a>
+              <a class="nav-link" href="#concept">Concept Map</a>
+              <a class="nav-link" href="#compare">Symptom Comparison</a>
+              <a class="nav-link" href="#diagnostic">Diagnostic Studies</a>
+              <a class="nav-link" href="#nursing">Nursing Management</a>
+              <a class="nav-link" href="#medication">SBAR Report to Physician about a critical situation</a>
+              <a class="nav-link" href="#interpret">Blood Sugar Interpretation</a>
+          </nav>
+        </div>
+
+
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+          <h3 id="">Diabetes Mellitus</h3>
+          <img src="diabetes.png" alt="image of Diabetes" class="img-fluid" id="diabetesImage" data-toggle="modal" data-target=".bd-example-modal-lg">
+          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header"><!-- Wrapped <div> to put <span> &times on right-->
+                  <h1 class="modal-title" id="exampleModalLongTitle">Diabetes Mellitus</h1>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <img src="diabetes.png">
+              </div>
+            </div>
+          </div>
+
+
+          <h3 id="introduction">Introduction</h3>
+
+          <p>A group of metabolic diseases characterized by hyperglycemia resulting from defects in insulin secretion, insulin action, or both. Chronic hyperglycemia of diabetes is associated with long-term damage, dysfunction, and failure of various organs, especially the eyes, kidneys, nerves, heart, and blood vessels. Several pathogenic processes are involved in the development of diabetes. These range from autoimmune destruction of the β-cells of the pancreas with consequent insulin deficiency to abnormalities that result in resistance to insulin action. The basis of the abnormalities in carbohydrate, fat, and protein metabolism in diabetes is deficient action of insulin on target tissues. Deficient insulin action results from inadequate insulin secretion and/or diminished tissue responses to insulin at one or more points in the complex pathways of hormone action. Impairment of insulin secretion and defects in insulin action frequently coexist in the same patient, and it is often unclear which abnormality, if either alone, is the primary cause of the hyperglycemia. </p>
+          
+          <h3 id="types">Types of Diabetes</h3>
+          <button type="button" class="btn btn-outline-warning btn-lg btn-block" data-toggle="modal" data-target="#type1Diabetes">
+            Type 1 Diabetes
+          </button>
+          <button type="button" class="btn btn-outline-danger btn-lg btn-block" data-toggle="modal" data-target="#type2Diabetes">
+            Type 2 Diabetes
+          </button>
+          <div class="modal fade" id="type1Diabetes" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Type 1 Diabetes</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="alert alert-warning" role="alert">
+                    <p>Type 1 diabetes (β-cell destruction, usually leading to absolute insulin deficiency) Immune-mediated diabetes.</p>
+                    <hr>
+                    <p>Accounts for only 5–10% of those with diabetes, previously encompassed by the terms insulin-dependent diabetes, type I diabetes, or juvenile-onset diabetes, results from a cellular-mediated autoimmune destruction of the β-cells of the pancreas.</p>
+                    <p>Markers of the immune destruction of the β-cell include islet cell autoantibodies, autoantibodies to insulin, autoantibodies to glutamic acid decarboxylase (GAD65), and autoantibodies to the tyrosine phosphatases IA-2 and IA-2β. One and usually more of these autoantibodies are present in 85–90% of individuals when fasting hyperglycemia is initially detected. Also, the disease has strong HLA associations, with linkage to the DQA and DQB genes, and it is influenced by the DRB genes. These HLA-DR/DQ alleles can be either predisposing or protective.</p>
+                    <p>In this form of diabetes, the rate of β-cell destruction is quite variable, being rapid in some individuals (mainly infants and children) and slow in others (mainly adults)</p>
+                    <p>Some patients, particularly children and adolescents, may present with ketoacidosis as the first manifestation of the disease.</p>
+                    <p>Others have modest fasting hyperglycemia that can rapidly change to severe hyperglycemia and/or ketoacidosis in the presence of infection or other stress.</p>
+                    <p>Adults, may retain residual β-cell function sufficient to prevent ketoacidosis for many years; such individuals eventually become dependent on insulin for survival and are at risk for ketoacidosis. At this latter stage of the disease, there is little or no insulin secretion, as manifested by low or undetectable levels of plasma C- peptide. Immune-mediated diabetes commonly occurs in childhood and adolescence, but it can occur at any age, even in the 8th and 9th decades of life.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="type2Diabetes" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Type 2 Diabetes</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="alert alert-danger" role="alert">
+                    <p>Ranging from predominantly insulin resistance with relative insulin deficiency to predominantly an insulin secretory defect with insulin resistance</p>
+                    <hr>
+                    <p>This form of diabetes, which accounts for ∼90–95% of those with diabetes, previously referred to as non-insulin-dependent diabetes, type II diabetes, or adult-onset. Encompasses individuals who have insulin resistance and usually have relative (rather than absolute) insulin deficiency At least initially, and often throughout their lifetime, these individuals do not need insulin treatment to survive. There are probably many different causes of this form of diabetes. Although the specific etiologies are not known, autoimmune destruction of β-cells does not occur, and patients do not have any of the other causes of diabetes listed above or below.</p>
+                    <p>This form of diabetes, which accounts for ∼90–95% of those with diabetes, previously referred to as non-insulin-dependent diabetes, type II diabetes, or adult-onset</p>
+                    <p>Encompasses individuals who have insulin resistance and usually have relative (rather than absolute) insulin deficiency At least initially, and often throughout their lifetime, these individuals do not need insulin treatment to survive. There are probably many different causes of this form of diabetes. Although the specific etiologies are not known, autoimmune destruction of β-cells does not occur, and patients do not have any of the other causes of diabetes listed above or below.</p>
+                    <p>Most patients with this form of diabetes are obese, and obesity itself causes some degree of insulin resistance.</p>
+                    <p>Patients who are not obese by traditional weight criteria may have an increased percentage of body fat distributed predominantly in the abdominal region.</p>
+                    <p>Ketoacidosis seldom occurs spontaneously in this type of diabetes; when seen, it usually arises in association with the stress of another illness such as infection.</p>
+                    <p>Frequently goes undiagnosed for many years because the hyperglycemia develops gradually and at earlier stages is often not severe enough for the patient to notice any of the classic symptoms of diabetes.</p>
+                    <p>Patients are at increased risk of developing macrovascular and microvascular complications.</p>
+                    <p>Patients with this form of diabetes may have insulin levels that appear normal or elevated, the higher blood glucose levels in these diabetic patients would be expected to result in even higher insulin values had their β-cell function been normal. Thus, insulin secretion is defective in these patients and insufficient to compensate for insulin resistance.</p>
+                    <p>Insulin resistance may improve with weight reduction and/or pharmacological treatment of hyperglycemia but is seldom restored to normal</p>
+                    <p>The risk of developing this form of diabetes increases with age, obesity, and lack of physical activity.</p>
+                    <p>Occurs more frequently in women with prior GDM and in individuals with hypertension or dyslipidemia</p>
+                    <p>Frequency varies in different racial/ethnic subgroups</p>
+                    <p>Often associated with a strong genetic predisposition, more so than is the autoimmune form of type 1 diabetes.</p>
+                    <p>However, the genetics of this form of diabetes are complex and not clearly defined.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h3 id="signs">Signs and Symptoms of Diabetes Mellitus</h3>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block" src="always-tired.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="urination.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="weight-loss.png" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="foot-wound.png" alt="Fourth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="sexual.png" alt="Fifth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="hungry.png" alt="Six slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="retina.png" alt="Seventh slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="numbness.png" alt="Eight slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="thirsty.png" alt="Ninth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="infection.png" alt="Tenth slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <br>
+          <h4 class="text-center">Polyuria, Polydipsia, Polyphagia</h4>
+          <p>
+            <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#polyuria" aria-expanded="false" aria-controls="polyuria">
+              Polyuria, Polydipsia, Polyphagia
+            </button>
+            <button class="btn btn-warning btn-block" type="button" data-toggle="collapse" data-target="#long-term-effects" aria-expanded="false" aria-controls="long-term-effects">
+              Long-Term Effects
+            </button>
+            <button class="btn btn-danger btn-block" type="button" data-toggle="collapse" data-target="#complications" aria-expanded="false" aria-controls="complications">
+              Complications
+            </button>
+          </p>
+          <div class="collapse" id="polyuria">
+            <div class="card card-body">
+              <ul>
+                <li>Polyuria or increased urination. Polyuria occurs because the kidneys remove excess sugar from the blood, resulting in a higher urine production.</li>
+                <li>Polydipsia or increased thirst. Polydipsia is present because the body loses more water as polyuria happens, triggering an increase in the patient’s thirst.</li>
+                <li>Polyphagia or increased appetite. Although the patient may consume a lot of food but glucose could not enter the cells because of insulin resistance or lack of insulin production.</li>
+                <li>Hyperglycemia</li>
+                <li>Weight loss</li>
+                <li>Unexplained fatigue or lethargy</li>
+                <li>Headaches</li>
+                <li>Occasional enuresis in a previously toilet-trained child</li>
+                <li>Vaginitis in adolescent girls (caused by Candida, which thrives in hyperglycemic tissues). Fruity odor to breath</li>
+                <li>Dehydration</li>
+                <li>Blurred vision</li>
+                <li>Slow wound healing</li>
+                <li>Changes in level of consciousness</li>
+              </ul>
+            </div>
+          </div>
+          <div class="collapse" id="long-term-effects">
+            <div class="card card-body">
+              <ul>
+                <li>Failure to grow at a normal rate</li>
+                <li>Delayed maturation</li>
+                <li>Recurrent infections</li>
+                <li>Neuropathy</li>
+                <li>Cardiovascular disease</li>
+                <li>Retinal microvascular disease</li>
+                <li>Renal microvascular disease</li>
+              </ul>
+            </div>
+          </div>
+          <div class="collapse" id="complications">
+            <div class="card card-body">
+              <ul>
+                <li>Hypoglycemia</li>
+                <li>Hyperglycemia</li>
+                <li>Diabetic ketoacidosis</li>
+                <li>Coma</li>
+                <li>Hypokalemia</li>
+                <li>Hyperkalemia</li>
+                <li>Microvascular changes</li>
+                <li>Cardiovascular changes</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3 id="risk">Risk Factors for Pre-Diabetes and <br>Type 2 Diabetes</h3>
+          <table class="table table-md table-striped table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Factors</th>
+                <th scope="col" class="text-center">Rationale</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Weight</td>
+                <td>The more fat tissue you have, the more resistant your cells become to insulin.</td>
+              </tr>
+              <tr>
+                <td>Inactivity</td>
+                <td>The less active you are, the greater your risk. Physical activity helps you control your weight, uses up glucose as energy and makes your cells more sensitive to insulin.</td>
+              </tr>
+              <tr>
+                <td>Family history</td>
+                <td>Your risk increases if a parent or sibling has type 2 diabetes.</td>
+              </tr>
+              <tr>
+                <td>Race</td>
+                <td>Although it's unclear why, people of certain races — including blacks, Hispanics, American Indians and Asian-Americans — are at higher risk</td>
+              </tr>
+              <tr>
+                <td>Age</td>
+                <td>Your risk increases as you get older. This may be because you tend to exercise less, lose muscle mass and gain weight as you age. But type 2 diabetes is also increasing dramatically among children, adolescents and younger adults</td>
+              </tr>
+              <tr>
+                <td>Gestational diabetes</td>
+                <td>If you developed gestational diabetes when you were pregnant, your risk of developing prediabetes and type 2 diabetes later increases. If you gave birth to a baby weighing more than 9 pounds (4 kilograms), you're also at risk of type 2 diabetes.</td>
+              </tr>
+              <tr>
+                <td>Polycystic ovary syndrome</td>
+                <td>For women, having polycystic ovary syndrome — a common condition characterized by irregular menstrual periods, excess hair growth and obesity — increases the risk of diabetes.</td>
+              </tr>
+              <tr>
+                <td>High blood pressure</td>
+                <td>Having blood pressure over 140/90 millimeters of mercury (mm Hg) is linked to an increased risk of type 2 diabetes.</td>
+              </tr>
+              <tr>
+                <td>Abnormal cholesterol and triglyceride levels</td>
+                <td>If you have low levels of high-density lipoprotein (HDL), or "good," cholesterol, your risk of type 2 diabetes is higher. Triglycerides are another type of fat carried in the blood. People with high levels of triglycerides have an increased risk of type 2 diabetes. Your doctor can let you know what your cholesterol and triglyceride levels are. </td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <h3 id="pathophysiology">Pathophysiology of Diabetes Mellitus</h3>
+          <p>Pathophysiology or physiopathology is a convergence of pathology with physiology. Pathology is the medical discipline that describes conditions typically observed during a disease state, whereas physiology is the biological discipline that describes processes or mechanisms operating within an organism. Pathology describes the abnormal or undesired condition, whereas pathophysiology seeks to explain the physiological processes or mechanisms whereby such condition develops and progresses.</p>
+
+          <button type="button" class="btn-block btn-primary" data-toggle="modal" data-target=".bd-diabetes-modal-lg">Pathophysiology of Diabetes Mellitus</button>
+          <div class="modal fade bd-diabetes-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="text-center">Pathophysiology Diabetes Mellitus</h1>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                  <img src="patho1.png" alt="Pathophysiology of Coronary Arterty Bypass Graft">
+              </div>
+            </div>
+          </div>
+
+          <h3 id="concept">Concept Map of Diabetes Mellitus</h3>
+          <p>Concept map of Diabetes Mellitus aides to assist as graphic organizer to help organize and represent knowledge about Diabetes Mellitus</p>
+
+          <button type="button" class="btn-block btn-danger" data-toggle="modal" data-target=".bd-example-modal-sm">Concept Map of Diabetes Mellitus</button>
+
+          <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="text-center">Concept Map of Diabetes Mellitus</h1>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                  <img src="patho2.png" alt="Concept Map of Chronic Obstructive pulmonary Disorder">
+              </div>
+            </div>
+          </div>
+
+          <h3 id="compare">Symptom Comparison</h3>
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Pre-Diabetes</th>
+                <th scope="col">Type 1 Diabetes</th>
+                <th scope="col">Type 2 Diabetes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="8">No Symptoms</td>
+                <td>Increased or extreme thirst</td>
+                <td>Increased thirst</td>
+              </tr>
+              <tr>
+                <td>Increased appetite</td>
+                <td>Increased appetite</td>
+              </tr>
+              <tr>
+                <td>Increased fatigue</td>
+                <td>Fatigue</td>
+              </tr>
+              <tr>
+                <td>Increased or frequent urination</td>
+                <td>Increased urination, especially at night</td>
+              </tr>
+              <tr>
+                <td>Unusual weight loss</td>
+                <td>Weight loss</td>
+              </tr>
+              <tr>
+                <td>Blurred vision</td>
+                <td>Blurred vision</td>
+              </tr>
+              <tr>
+                <td>Fruity odor or breath</td>
+                <td>Sores that do not heal</td>
+              </tr>
+              <tr>
+                <td>In some cases, no symptoms</td>
+                <td>In some cases, no symptoms</td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <h3 id="diagnostic">Diagnostic Studies</h3>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">Oral Glucose Tolerance Test</a>
+            <a href="#" class="list-group-item list-group-item-action">Fasting Blood Sugar</a>
+            <a href="#" class="list-group-item list-group-item-action">Two-hour postprandial Test</a>
+            <a href="#" class="list-group-item list-group-item-action">Random Blood Sugar</a>
+            <a href="#" class="list-group-item list-group-item-action">Hemoglobin A1C</a>
+          </div>
+
+          <h3 id="nursing">Nursing Management</h3>
+          <table class="table table-lg table-striped table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Nursing Intervention</th>
+                <th scope="col" class="text-center">Rationale</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Rapid-acting insulin analogs: lispro insulin (Humalog), insulin aspart</td>
+                <td>Have an onset of action within 15 minutes of administration. The duration of action is 2 to 3 hours for Humalog and 3 to 5 hours for aspart.</td>
+              </tr>
+              <tr>
+                <td>Short-acting insulin: regular</td>
+                <td>Has an onset of action within 30 minutes of administration; duration of action is 4 to 8 hours. </td>
+              </tr>
+              <tr>
+                <td>Intermediate-acting insulin: neutral protamine Hagedorn (NPH), insulin zinc suspension (Lente)</td>
+                <td>Onset of action for the intermediate-acting is one hour after administration; duration of action is 18 to 26 hours.</td>
+              </tr>
+              <tr>
+                <td>Injection procedures</td>
+                <td>Absorption of insulin is more consistent when insulin is always injected in the same anatomical site. Absorption if fastest in the abdomen, followed by the arms, thighs, and buttocks. It is recommended by the American Diabetes Association to administer insulin into the subcutaneous tissue of the abdomen.</td>
+              </tr>
+              <tr>
+                <td>Rotation of injection within one anatomical site</td>
+                <td>This may prevent from freezing of fats in the body</td>
+              </tr>
+              <tr>
+                <td>Discuss the importance of balance exercise with food intake.</td>
+                <td>Exercise balances glucose levels by facilitating uptake of glucose into cells. The patient needs to understand the relationship of exercise, food intake, and blood glucose levels.</td>
+              </tr>
+              <tr>
+                <td>Teach the patient on measuring capillary blood glucose.</td>
+                <td>Capillary blood glucose monitoring provides the patient with immediate information about blood glucose. </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="container">
+            <h3 id="medication">SBAR Report to Physician about a critical situation</h3>
+            <div class="pos-f-t">
+              <div class="collapse" id="navbarMedicationTable">
+                <div class="bg-light p-4">
+                <table class="table table-hover table-lg table-bordered text-center table-responsive" id="medicationTable">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">SBAR</th>
+                      <th scope="col">Rationale</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>S</td>
+                      <td>Situation:
+                    </br>I am calling about : Mr. Smith
+                    </br>The patient’s code status is
+                    </br>The problem I am calling about is ( I am having intermittent chestpain )
+                    </br>I have assessed the patient personality:
+                    </br>Vital Signs are : Blood pressure     Pulse:      Respiratory :    Temp
+                     </td>
+                    </tr>
+                    <tr>
+                      <td>B</td>
+                      <td>Background:
+                      </br>The patient’s mental status is:
+                      Alert and oriented to person, place and time
+                      Confused___ ; Cooperative;____Non cooperative;____Agitated_____; Combative;______
+                    Lethargic but conversant and able to swallow_____Stuporous;____Comatose;____
+                    The skin is:
+                    Warm and dry:_____Pale:____Mottled:_____Diaphoretic:____
+                    Extremities are cold:_____
+                    The patient is not:_____ or is in _____ oxygen:
+                    The patient has been on ____(l/min)oxygen for___ min(hours)
+                    The oximeter is reading_______%
+                    The oximeter does not detect a good pulse and is giving erratic reading </td> 
+                    </tr>
+                    <tr>
+                      <td>A</td>
+                      <td>Assessment:
+                        This is what I think the problem is:(say what you think the problem is)
+                        The problem seems to be: Cardiac:___ Infection:___ Neurologic :___Respiratory:______
+                      I am not sure what the problem is but the patient is deteriorating: yes/No
+                      The patient seems to be unstable and may get worse, we need to do something:___</td>
+                    </tr>
+                    <tr>
+                      <td>R</td>
+                      <td>Recommendation:
+                      I ___suggest or ___request that you: ( say what you would like to see done )
+                      Transfer the patient to critical care:______
+                      Come to see the patient at this time:_____
+                      Talk to the patient or family about the code status:____
+                      Ask the on call family practice resident to see the patient now:____
+                      Ask for a consult to see the patient now:______
+                      Are any test needed:
+                      Do you need any test like CXR:__ ABG:___ EKG: ___ Cbc: ___Urinalysis:__
+                      Others:_____
+                      If a change in treatment is ordered then ask:
+                      How often do you want the vital signs?_____
+                      How long do you expect this problem will last ?______
+                      If patient does not get better when would you want us to call again?_____</td>
+                    </tr>
+                   </tbody>
+                </table>
+                </div>
+                </div>
+                <nav class="navbar navbar-light bg-light">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMedicationTable" aria-controls="navbarMedicationTable" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </nav>
+              </div>
+            </div>
+            
+            <h3></h3><!--added as breakpoint-->
+            <div class="card border-secondary mb-3" style="max-width: 100%;">
+              <div class="card-header"><h3 id="interpret">Blood Sugar Interpretation</h3></div>
+              <div class="card-body text-secondary">
+                <p class="card-text">
+                  <table class="table table-bordered table-responsive-sm">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">Blood Glucose Range</th>
+                        <th scope="col">Diagnosis</th>
+                        <th scope="col">What it means</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>100 to 125 mg/dL</td>
+                        <td>Prediabetes (also called Impaired Fasting Glucose)</td>
+                        <td>Blood glucose levels are higher than normal but not high enough to be diagnosed as diabetes. This condition puts you at increased risk for developing type 2 diabetes, heart disease, and stroke.</td>
+                      </tr>
+                      <tr>
+                        <td>126 mg/dL or more</td>
+                        <td>Diabetes mellitus (type 2 diabetes)</td>
+                        <td>Type 2 diabetes develops when your body doesn't make enough insulin or develops "insulin resistance" and can't make efficient use of the insulin it makes. It greatly increases your risk of heart disease and stroke.</td>
+                      </tr>
+                      <tr>
+                        <td>140 to 199 mg/dL</td>
+                        <td>Prediabetes (also called Impaired Fasting Glucose)</td>
+                        <td>Blood glucose levels are higher than normal but not high enough to be diagnosed as diabetes. This condition puts you at increased risk for developing type 2 diabetes, heart disease, and stroke.</td>
+                      </tr>
+                      <tr>
+                        <td>200 mg/dL or higher</td>
+                        <td>Diabetes mellitus (type 2 diabetes)</td>
+                        <td>Type 2 diabetes develops when your body doesn't make enough insulin or develops "insulin resistance" and can't make efficient use of the insulin it makes. It greatly increases your risk of heart disease and stroke.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".glucose">Oral Glucose Test</button>
+
+                <div class="modal fade glucose" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Oral Glucose Test</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <img src="oralGlucoseTest.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div><!-- div for col-lg-6 -->
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+          $('[data-toggle="popover"]').popover();   
+      });
+
+      $('body').scrollspy({ target: '#sidebar' });
+    </script>
+  </body>
+</html>

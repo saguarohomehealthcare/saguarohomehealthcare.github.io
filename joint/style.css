@@ -1,0 +1,69 @@
+body {
+    position: relative;
+    line-height: 30px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#myScrollspy {
+  border: 20px solid red;
+}
+
+.active {
+  border-left: 10px solid green;
+  font-size: 16px;
+}
+/*
+.col-lg-3, .col-lg-6 {
+  border: 1px solid black;
+  padding: 0;
+}
+*/
+
+@media (max-width: 900px) { /*This removed the table of contents based on screen size.*/
+  #toc, .navbar-text {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) { /* This adjusts the size of the fonts and line height based on screen size */
+  body {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+#toc {
+  position: fixed;
+  left: 80px;
+  line-height: 10px;
+  font-size: 12px;
+}
+
+#toc a {
+  color: gray;
+  line-height: 10px;
+}
+
+h3 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+/* uncomment if needed for opening image.
+#diabetesImage {
+  height: 1%;
+  width: auto;
+}
+*/
+
+#diabetesImage:hover {
+  cursor: pointer;
+}
+
+.d-block {
+  width: 100%;
+  height: auto;
+}

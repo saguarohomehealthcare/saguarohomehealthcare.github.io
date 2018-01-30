@@ -1,0 +1,81 @@
+body {
+    position: relative;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#myScrollspy {
+  border: 1px solid red;
+}
+
+#article {
+  border: 0px solid black;
+}
+
+.col-sm-2, .col-sm-4, .col-sm-6  {
+  border: 0px solid red;
+}
+
+.container {
+  margin-bottom: 100px;
+}
+
+.nav-link {
+  font-size: 12px;
+}
+
+h3 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#sidebar {
+  position: fixed;
+  left: 10px;
+  line-height: 10px;
+}
+
+#sidebar a {
+  color: gray;
+  line-height: 10px;
+}
+
+.active a,
+.active {
+  border-left: 10px solid green;
+  font-size: 18px;
+}
+
+.dropdown-menu a {
+  color: black;
+  border-left: none;
+}
+
+
+#nav-tabContent p {
+  color: black;
+}
+
+#btnSigns {
+  padding-top: 30px;
+}
+
+.tab-content .active {
+  border-left: none;
+}
+
+td {
+  text-align: left;
+}
+h6 {
+  color: white;
+}
+
+@media (max-width: 950px) {
+    #sidebar {
+        display: none;
+    }
+}
